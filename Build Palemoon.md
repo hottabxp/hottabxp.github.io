@@ -1,7 +1,7 @@
 # Установка пакетов в Ubuntu 20.04
 
 ```shell
-sudo apt-get install build-essential libgtk3.0-dev libdbus-glib-1-dev autoconf2.13 \
+sudo apt-get install build-essential libgtk2.0-dev libdbus-glib-1-dev autoconf2.13 \
 yasm libegl1-mesa-dev libasound2-dev libxt-dev zlib1g-dev libssl-dev \
 libsqlite3-dev libbz2-dev libpulse-dev libgconf2-dev libx11-xcb-dev \
 zip python2.7 python-dbus mc tmux ncdu
@@ -21,7 +21,7 @@ tar -xf palemoon-29.4.4.source.tar.xz
 _BUILD_64=1
 
 # Set GTK Version to 2 or 3
-_GTK_VERSION=3
+_GTK_VERSION=2
 
 # Standard build options for Pale Moon
 ac_add_options --enable-application=palemoon
